@@ -27,6 +27,18 @@ p {
     padding-right: 4rem;
 }
 
+.sketch_text {
+    font-size: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+a {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+}
+
 video {
     padding-top: 2rem;
     display: block;
@@ -52,3 +64,46 @@ video {
     border: solid;
     max-width: 90%;
 }
+
+table {
+    display: table;
+    margin: auto;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+}
+
+.resp_img {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+table, th, td {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.testing_notes {
+    display: inline;
+    align-content: center;
+}
+
+ul {
+    padding-left: 40rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
